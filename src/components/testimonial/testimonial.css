@@ -1,0 +1,35 @@
+.single__testimonial {
+  padding: 35px;
+}
+
+.single__testimonial p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.single__testimonial h6 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #7865ff !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.single__testimonial span {
+  color: rgb(42, 18, 220);
+}
+
+.single__testimonial .title {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.img__container {
+  width: 50px;
+  height: 50px;
+}
+
+.img__container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+:root {
+  --background-color: #0e1b31;
+  --white-color: #fff;
+  --primary-color: #7865ff;
+  --secondary-color: #132347;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-color) !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white-color) !important;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  color: var(--white-color);
+  opacity: 75%;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: var(--white-color);
+  font-family: "Lato", sans-serif;
+}
+
+a:hover {
+  color: var(--white-color);
+}
+
+section,
+footer {
+  padding: 60px 0px;
+}
+
+/* ========== custom scroll-bar ========== */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #c1ceff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #282f4e;
+}

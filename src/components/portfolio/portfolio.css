@@ -1,0 +1,53 @@
+.portfolio__top h6 {
+  color: #7865ff !important;
+  margin-bottom: 15px;
+}
+
+.portfolio__card {
+  position: relative;
+  z-index: 90;
+}
+
+.portfolio__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6));
+  z-index: 91;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.portfolio__card:hover .portfolio__content {
+  transform: translateY(0);
+  opacity: 0.6;
+}
+
+.portfolio__img img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio__content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.portfolio__content h5 {
+  color: #fff !important;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}

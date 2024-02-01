@@ -1,0 +1,50 @@
+.single__education-container {
+  padding: 30px;
+  background: #132347;
+  border-radius: 10px;
+}
+
+.single__education {
+  position: relative;
+  padding: 10px 30px;
+  z-index: 70;
+}
+
+.single__education::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  content: "";
+  background: #7865ff;
+  color: #7865ff;
+  z-index: 90;
+}
+
+.education__icon {
+  position: absolute;
+  top: 5px;
+  left: -9px;
+  color: #7865ff;
+  font-size: 1.2rem;
+  z-index: 90;
+}
+
+.single__education h6 {
+  font-size: 0.9rem;
+  opacity: 75%;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.single__education h5 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.single__experience p {
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 0.9rem;
+}
