@@ -27,17 +27,18 @@ const Testimonial = () => {
               <div>
                 <div className="single__testimonial">
                   <p>
-                    "Working with Terfa on my website was an absolute pleasure.
+                    "Working with Terfa on our website was an absolute pleasure.
                     His attention to detail, creativity, and dedication to
                     delivering a site with outstanding functionality truly
-                    exceeded my expectations. Not only did he bring my vision to
-                    life, but he also added valuable insights and suggestions
+                    exceeded my expectations. Not only did he bring our vision
+                    to life, but he also added valuable insights and suggestions
                     that enhanced the user experience. The site he designed is
                     not only visually stunning but also incredibly
-                    user-friendly, making it a joy for visitors to navigate. I'm
-                    grateful for his expertise and professionalism throughout
-                    the process and would highly recommend him to anyone seeking
-                    top-notch front-end design and development services."
+                    user-friendly, making it a joy for visitors to navigate. We
+                    are grateful for his expertise and professionalism
+                    throughout the process and would highly recommend him to
+                    anyone seeking top-notch front-end design and development
+                    services."
                   </p>
 
                   <div className="testimonial__author-content d-flex align-items-center gap-3 justify-content-center">

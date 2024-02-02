@@ -32,7 +32,7 @@ const Contact = () => {
 
               <div className="single__info-box w-50">
                 <h6>Address</h6>
-                <p>Ludge Zone 3, Abuja, Nigeria.</p>
+                <p>Lugbe Zone 3, Abuja, Nigeria.</p>
               </div>
             </div>
           </Col>
