@@ -6,7 +6,7 @@ const educationalExperienceData = [
   {
     year: "2023 - present",
     title: "Frontend Web Development",
-    desc: "I gained proficiency in HTML, CSS, and JavaScript, understanding how to structure and style web pages, manipulate the DOM, and handle user interactions. Additionally, familiarity with version control, web development tools, basic design principles, and soft skills such as problem-solving and communication.",
+    desc: "I gained proficiency in HTML, CSS, and JavaScript, TypeScript, Reactjs, understanding how to structure and style web pages, manipulate the DOM, and handle user interactions. Additionally, familiarity with version control, web development tools, basic design principles, and soft skills such as problem-solving and communication.",
   },
   {
     year: "2013 - 2015",
